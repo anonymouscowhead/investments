@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+		/>
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css" />
+		<link rel="stylesheet" href="dist/reveal.css" />
+		<link rel="stylesheet" href="dist/theme/beige.css" />
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="dist/plugin/highlight/monokai.css" />
+		<style>
+			.reveal li {
+  				padding: 12px; 
+			}
+		</style>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h3>What can you invest in?</h3>
+					<ul>
+						<li style="display: inline-flex; align-items: center; gap: 10px;"><img data-src="public/images/coke.jpg" width="70" height="44"/>Stocks/Shares: Own part of a company</li>
+						<li style="display: inline-flex; align-items: center; gap: 10px;"><img data-src="public/images/spx.jpg" width="60" height="34"/>Indexes: A small piece of all the most traded companies. S&P 500, OBX 25</li>
+						<li style="display: inline-flex; align-items: center; gap: 10px;"><img data-src="public/images/pro.jpg" width="68" height="45"/>Actively managed fund: A professional investor tries to make more than the index.   On average they fail.  They charge a fee for trying.</li>
+						<li style="display: inline-flex; align-items: center; gap: 10px;"><img data-src="public/images/bond.jpg" width="64" height="48"/>Bonds - Lend money to a government or company, they pay interest. </li>
+					</ul>
+				</section>
+				<section>
+					<h3>What <i>should</i> you do?</h3>
+					<ul>
+						<li style="display: inline-flex; align-items: center; gap: 10px;"><img data-src="public/images/norge.jpg" width="64" height="48"/>Look at what Buffet, or Oljefondet does.  Ask around..</li>
+						<li style="display: inline-flex; align-items: center; gap: 10px;"><img data-src="public/images/warren.jpg" width="80" height="100"/>For most, investing every month, in index funds.</li>
+						<li style="display: inline-flex; align-items: center; gap: 10px;"><img data-src="public/images/piggy.jpg" width="48" height="48"/>Steady saving is better than gifts, bonus or inheritance.</li>
+						<li style="display: inline-flex; align-items: center; gap: 10px;"><img data-src="public/images/horses.jpg" width="67" height="46"/>If you invest 10,000 USD tomorrow, you bet that tomorrow is a good day to buy.  Is it?</li>
+					</ul>
+				</section>
+				<section>
+					<h3>Why doesn't everyone just buy index funds?</h3>
+					<ul>
+						<li>Fun - you could buy Cheesecake Factory.</li>
+						<li>Watch out! If it goes up 10% but the index is up 15%, Your win was a loss.</li>
+						<li>Ethics - maybe you don't want to give any money to a certain company.</li>
+						<li>That's tricky for normal people though - you can't easily buy S&P 500 minus one company.</li>
+					</ul>
+				</section>
+				<section>
+					<h3>Emotions</h3>
+					<p>You invest sensibly but they go down.  Terrible?</p>
+					<ul>
+						<li style="display: inline-flex; align-items: center; gap: 10px;"><img data-src="public/images/rollercoaster.jpg" width="148" height="70"/>Buy something for 100.</li>
+						<li>Now it's 60.  So it's cheap. Buy more.</li>
+					    <li>When it goes back up above 100, you'll have more profit than if it just kept climbing.</li>
+					    <li style="display: inline-flex; align-items: center; gap: 10px;"><img data-src="public/images/heavy.jpg" width="120" height="80"/>Watch out for other emotions.
+					Hope makes you hold onto something that lost value.  Would you buy it today?</li>
+				</section>
+				<section>
+					<h3>Conclusion</h3>
+					<ul>
+						<li>Automatically invest every month, index funds.  15% of your wages?</li>
+						<li>As cheaply as possible - minimum fees, and expenses in the funds.</li>
+						<li style="display: inline-flex; align-items: center; gap: 10px;"><img data-src="public/images/nordnet.png" width="72" height="28"/>But.. taxes are complicated, so I think you should start with https://www.nordnet.no/ as they handle tax automatically.</li>
+					</ul>
+				</section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="dist/plugin/notes.js"></script>
+		<script src="dist/plugin/markdown.js"></script>
+		<script src="dist/plugin/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+			});
+		</script>
+	</body>
+</html>
